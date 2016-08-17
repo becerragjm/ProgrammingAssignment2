@@ -4,6 +4,7 @@
 ## Write a short comment describing this function
 ## This function creates a special matrix with the cached inverse of the source matrix
 ## All the variables are preceded by the "v" letter
+## prueba
 
 makeCacheMatrix <- function(vmatsource = matrix()) {
   ## @vmatsource: a square invertible matrix object
@@ -62,4 +63,3 @@ cacheSolve <- function(vmatsource, ...) {
   
   return(vmatinv)
 }
-
